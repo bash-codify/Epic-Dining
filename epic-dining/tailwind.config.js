@@ -11,15 +11,19 @@ module.exports = {
   theme: {
     extend: {
           colors: {
-            primaryColor:'rgb(235, 235, 235)',
-            secondaryColor: 'rgb(26, 26, 26)',
+            whiteColor:'rgb(235, 235, 235)',
+            titleColor: 'rgb(26, 26, 26)',
+            backgroundColor: '#fbf7f0',
+            buttonColor: '#f4c877',
             priceColor: 'rgb(228, 0, 0)',
             textColor: '#FCFCFC'
 
 
           },
           fontFamily: {
-          redhat: ["Red Hat Display', sans-serif"],
+
+          syne: ["'Syne, sans-serif"],
+
           },
   
           fontSize: {
@@ -43,9 +47,11 @@ module.exports = {
       },
 
       fontWeight:{
+        font_regular:'400',
         font_medium:'500',
+        font_semibold:'600',
         font_bold:'700',
-        font_black: '900',
+        font_extrabold: '800',
       },
       width:{
 
