@@ -1,4 +1,9 @@
+import Header from './components/Header'
 import './globals.css'
+import { Syne } from '@next/font/google'
+
+
+const syne = Syne({ subsets: ['latin'] })
 
 export default function RootLayout({ children }) {
   return (
@@ -8,7 +13,12 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body className= {`${syne.className} bg-backgroundColor`} >
+        <Header/>
+        
+        {children}
+        
+        </body>
     </html>
   )
 }

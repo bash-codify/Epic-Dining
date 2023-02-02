@@ -16,7 +16,7 @@ module.exports = {
             backgroundColor: '#fbf7f0',
             buttonColor: '#f4c877',
             priceColor: 'rgb(228, 0, 0)',
-            textColor: '#FCFCFC'
+            textColor: '#fff'
 
 
           },
@@ -28,21 +28,27 @@ module.exports = {
   
           fontSize: {
   
-          sm:["clamp(1.3rem, 10vw, 1.3rem)"],
-  
-          base:["clamp(1.45rem, 10vw, 1.6rem)" ],
-  
-          lg:["clamp(2rem, 10vw, 2rem)" ],
-  
-          xl:["clamp(3.2rem, 10vw, 3rem)"],
-    
-          "2xl":["clamp(4rem, 10vw, 4rem)"],
-  
-          "3xl":["clamp(5rem, 10vw, 8rem)"],
-  
-          "4xl":["clamp(6rem, 10vw, 9rem)"],
+          xs:["clamp(.8rem, 10vw, 1.3rem)"],
 
-          "5xl":["clamp(7rem, 10vw, 10rem)"],
+          sm:["clamp(1.2rem, 10vw, 1.6rem)"],
+
+          sbase:["clamp(1.4rem, 10vw, 1.8rem)"],
+  
+          base:["clamp(1.6rem, 10vw, 2rem)" ],
+  
+          lg:["clamp(2rem, 10vw, 3rem)" ],
+  
+          xl:["clamp(3.73rem, 10vw, 4rem)"],
+    
+          "1xl":["clamp(4.19rem, 10vw, 4.8rem)"],
+
+          "2xl":["clamp(4.6rem, 10vw, 5rem)"],
+  
+          "3xl":["clamp(4.8rem, 10vw, 6rem)"],
+  
+          "4xl":["clamp(5rem, 10vw, 7.5rem)"],
+
+          "5xl":["clamp(6rem, 10vw, 8rem)"],
           
       },
 
@@ -56,14 +62,15 @@ module.exports = {
       width:{
 
         'w90': "90%",
-        'ww85': "85%",
-        '80': "80%",
+        'w85': "85%",
+        'w80': "80%",
 
 
       },
       height:{
 
        'h90': "90vh",
+       'h10': "10vh",
 
 
       },
