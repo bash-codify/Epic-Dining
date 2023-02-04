@@ -21,3 +21,31 @@ body{
   font-family: 'Syne', sans-serif;
   background-color: #fbf7f0;
 }
+
+.scroll-container{
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+ scroll-snap-type:x mandatory;
+ overflow: hidden;
+ overflow-x: scroll;
+  gap: 2rem;
+  scrollbar-width: 0;
+
+
+}
+.scroll-container::-webkit-scrollbar{
+  display: none;
+  scrollbar-width: 0;
+}
+
+.scroll-child{
+  
+  scroll-snap-align: start;
+  /* width: 32rem; */
+  height: 23rem;
+  border-radius: 2rem;
+  border-top-left-radius:10rem;
+  
+}

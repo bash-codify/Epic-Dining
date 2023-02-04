@@ -64,6 +64,9 @@ module.exports = {
         'w90': "90%",
         'w85': "85%",
         'w80': "80%",
+        'w23': "23rem",
+        'w28': "28rem",
+        
 
 
       },
@@ -71,6 +74,7 @@ module.exports = {
 
        'h90': "90vh",
        'h10': "10vh",
+       'h28': "28rem",
 
 
       },
@@ -78,6 +82,7 @@ module.exports = {
       screens: {
 
           xs: "360px",
+          s412: "412px",
           ss: "500px",
           sm: "768px",
           md: "1024px",
